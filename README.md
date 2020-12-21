@@ -84,12 +84,15 @@ npm install
 
 ```
 
-4. Enter the index.js file and change the following
+4. Enter the config.json file and change the following
 ```css 
-Ln 16  const token  ='<Your bot Token>' ;
-Ln 26  const perfix = '<Custom Perfix>';
-Ln 63  url: '<twitch URL>'
-Ln 81 & 93 .setURL('<Invite Link>')
+   "botstat":{
+        "tokenbot":" ",
+        "prefix":"%",
+        "botID":" ",
+        "ownerID":" ",
+        "twichtUrl":" ",
+        "invUrl":" "
 ```
 
 5. And after doing all the work and saving the information using the following command, you turn on the Bot 
