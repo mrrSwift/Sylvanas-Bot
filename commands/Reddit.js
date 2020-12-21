@@ -15,7 +15,7 @@ const randompuppy = require ('random-puppy');
      description:"i see",
 
      async run (client,message, args){
-         if(!args[0]) return message.reply("pls ")
+         if(!args[0]) return message.reply("Please enter one of the items mentioned in the help menu ")
 
          const costum = args[0]
 
@@ -28,7 +28,7 @@ const randompuppy = require ('random-puppy');
             const img =await randompuppy(random);
      
      
-            if(!img)return message.reply("Chizi peyda nkrdm :(")
+            if(!img)return message.reply("No items found :(")
            
             
            message.channel.send(img);
@@ -58,7 +58,7 @@ const randompuppy = require ('random-puppy');
             const img =await randompuppy(random);
      
      
-            if(!img)return message.reply("Chizi peyda nkrdm :(")
+            if(!img)return message.reply("No items found:(")
            
             
            message.channel.send(img);
@@ -83,7 +83,7 @@ const randompuppy = require ('random-puppy');
             const img =await randompuppy(random);
      
      
-            if(!img)return message.reply("Chizi peyda nkrdm :(")
+            if(!img)return message.reply("No items found :(")
            
             
            message.channel.send(img);
@@ -98,7 +98,7 @@ const randompuppy = require ('random-puppy');
             const img =await randompuppy(random);
      
      
-            if(!img)return message.reply("Chizi peyda nkrdm :(")
+            if(!img)return message.reply("No items found :(")
            
             
            message.channel.send(img);
@@ -114,7 +114,7 @@ const randompuppy = require ('random-puppy');
             const img =await randompuppy(random);
      
      
-            if(!img)return message.reply("Chizi peyda nkrdm :(")
+            if(!img)return message.reply("No items found :(")
            
             
            message.channel.send(img);

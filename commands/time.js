@@ -8,7 +8,7 @@
 /***************************************************************************/
 const Discord = require('discord.js');
  module.exports = {
-     name:"time",
+     name:"timeutc",
      description:"say time utc",
 
      async run (client,message, args){

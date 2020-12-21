@@ -8,7 +8,7 @@
 /***************************************************************************/
 const Discord = require('discord.js');
  module.exports = {
-     name:"ساعت",
+     name:"time",
      description:"say time iran",
 
      async run (client,message, args){
@@ -17,7 +17,7 @@ const Discord = require('discord.js');
         var m = all.getMinutes();
         var s = all.getSeconds();
         const time = new Discord.MessageEmbed()
-        .setTitle("𝐓𝐢𝐦𝐞")
+        .setTitle("𝐓𝐢𝐦𝐞(server)")
         .setColor('#18f285')
         .setDescription (`**${h}:${m}:${s}**`) 
 
@@ -39,7 +39,7 @@ const Discord = require('discord.js');
         var m = all.getMinutes();
         var s = all.getSeconds();
         const time01 = new Discord.MessageEmbed()
-        .setTitle("𝐓𝐢𝐦𝐞")
+        .setTitle("𝐓𝐢𝐦𝐞(server)")
         .setColor('#18f285')
         .setDescription (`**${h}:${m}:${s}**`) 
        
