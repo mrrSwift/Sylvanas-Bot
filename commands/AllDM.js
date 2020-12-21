@@ -16,7 +16,7 @@ module.exports = {
 
     async run (client,message, args){
 
-        const idowner =  '497342665067724811'
+        const idowner = `${config.botstat.ownerID}`
         if(message.author.id === idowner) {
         let dmGuild = message.guild;
         let msg = args.slice(0).join(" ");
