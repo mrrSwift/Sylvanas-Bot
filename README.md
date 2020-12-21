@@ -68,4 +68,4 @@ random-puppy (With a little change)
 
 # Install
 
-![Click here to learn how to install ](https://amirzarei007.github.io/Sylvanas-Bot/)
+[Click here to learn how to install ](https://amirzarei007.github.io/Sylvanas-Bot/)
