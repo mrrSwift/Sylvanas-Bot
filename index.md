@@ -1,37 +1,105 @@
-## Welcome to GitHub Pages
+# Sylvanas Discord Bot 
+  ------------------------------------------------------------
+### ability
+ 
 
-You can use the [editor on GitHub](https://github.com/amirzarei007/Sylvanas-Bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+-Alldm (just for admin ) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+-anime
 
-### Markdown
+-ascii
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-avatar
 
-```markdown
-Syntax highlighted code block
+-ban 
 
-# Header 1
-## Header 2
-### Header 3
+-clear
 
-- Bulleted
-- List
+-warn
 
-1. Numbered
-2. List
+-kick 
 
-**Bold** and _Italic_ and `Code` text
+-dm (Just for Bot CR)
 
-[Link](url) and ![Image](src)
+-Give a role with react 
+
+-kiss
+
+-poll
+
+-Say (Just for per Manage Channle)
+
+-Time 
+
+-Weather
+
+-Welcome
+
+-Reddit
+
+-Meme
+
+-10 commands NSFW **(NOTE: To enable these commands, you must copy the relevant files in the nsfw folder into the commands folder)**
+
+-and ...
+
+  ------------------------------------------------------------
+
+
+
+#### Libraries participating in this project
+
+-Discord.Js
+
+-Discord-canvas
+
+-Discord-giveaways
+
+-ytdl-core
+
+-quick.db
+
+-nekos.life
+
+-weather-js
+
+-random-puppy 
+
+  ------------------------------------------------------------
+
+# Install
+
+1. Download and Install node.js 
+
+2. Download the file using the following command
+
+```
+git clone <link>
+```
+3. Use the following commands to go into the file and install the required libraries
+
+```
+cd <File location>
+
+npm install
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+4. Enter the config.json file and change the following
+```css 
+   "botstat":{
+        "tokenbot":" ",
+        "prefix":"%",
+        "botID":" ",
+        "ownerID":" ",
+        "twichtUrl":" ",
+        "invUrl":" "
+```
 
-### Jekyll Themes
+5. And after doing all the work and saving the information using the following command, you turn on the Bot 
+ 
+``` 
+node .
+```
+ 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/amirzarei007/Sylvanas-Bot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
