@@ -39,7 +39,9 @@ Reddit
 
 Meme
 
-10 commands NSFW **(NOTE: To enable these commands, you must copy the relevant files in the nsfw folder into the commands folder)**
+10 commands NSFW 
+**(NOTE: To enable these commands, you must copy the relevant files in the nsfw folder into the commands folder)**
+
 and ...
 
   ------------------------------------------------------------
