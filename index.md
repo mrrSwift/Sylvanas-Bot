@@ -69,16 +69,15 @@
 
 # Install
 
-1. Download and Install node.js 
+ 1-Download and Install node.js 
  
-
-2. Download the file using the following command
+ 2-Download the file using the following command
 
 ```
 git clone <link>
 ```
 
-3. Use the following commands to go into the file and install the required libraries
+ 3-Use the following commands to go into the file and install the required libraries
 
 ```
 cd <File location>
@@ -88,7 +87,7 @@ npm install
 ```
 
 
-4. Enter the config.json file and change the following
+ 4-Enter the config.json file and change the following
 ```css 
    "botstat":{
         "tokenbot":" ",
@@ -100,7 +99,7 @@ npm install
 ```
 
 
-5. And after doing all the work and saving the information using the following command, you turn on the Bot 
+ 5-And after doing all the work and saving the information using the following command, you turn on the Bot 
  
 ``` 
 node .
