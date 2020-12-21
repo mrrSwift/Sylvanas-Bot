@@ -1,0 +1,20 @@
+{
+
+    "botinfo":{
+        "Dev":"Mr Swift",
+        "Ver":"3.2",
+        "Licence":""
+        
+    },
+    "botstat":{
+        "tokenbot":"NzI2MTM3Nzg5NzU3OTE1MTc3.XvY6hA.CqLc5WYLqH_RynvcfqFyyqbp6N4",
+        "prefix":"%",
+        "botID":"731899682124595211",
+        "ownerID":"497342665067724811",
+        "twichtUrl":"https://www.twitch.tv/swift2121",
+        "invUrl":"https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot"
+        
+    }
+    
+
+}
