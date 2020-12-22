@@ -4,6 +4,7 @@
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
 const Discord = require('discord.js');
@@ -46,6 +47,7 @@ const { on } = require('superagent');
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
         if(onoff === 'off') {

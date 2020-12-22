@@ -1,9 +1,10 @@
-  /***************************************************************************/
+/***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
 const client = require('nekos.life');
@@ -31,6 +32,7 @@ const config = require("../config.json")
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
          if (user.id === `${config.botstat.botID}`) {

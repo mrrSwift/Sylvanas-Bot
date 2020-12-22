@@ -1,12 +1,12 @@
 {
   "name": "sylvanasbot",
-  "version": "2.3.0",
+  "version": "3.2.0",
   "description": "Developer : !   𝓢𝔀𝓲𝓯𝓽#2975 . U can find Me in Discord xD",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "shadow",
+  "author": "Swift",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.2",

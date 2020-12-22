@@ -4,6 +4,7 @@
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
 const Discord = require('discord.js');
@@ -68,6 +69,7 @@ const Discord = require('discord.js');
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
            var t1 = setTimeout(startTime03, 1000);
@@ -107,6 +109,7 @@ const Discord = require('discord.js');
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
         clearTimeout(t1);

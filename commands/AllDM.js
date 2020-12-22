@@ -6,6 +6,7 @@
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
+/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
 

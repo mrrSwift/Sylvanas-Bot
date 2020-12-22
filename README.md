@@ -3,46 +3,47 @@
 ### ability
  
 
-Alldm (just for admin ) 
+-Alldm (just for admin ) 
 
-anime
+-anime
 
-ascii
+-ascii
 
-avatar
+-avatar
 
-ban 
+-ban 
 
-clear
+-clear
 
-warn
+-warn
 
-kick 
+-kick 
 
-dm (Just for Bot CR)
+-dm (Just for Bot CR)
 
-Give a role with react 
+-Give a role with react 
 
-kiss
+-kiss
 
-poll
+-poll
 
-Say (Just for per Manage Channle)
+-Say (Just for per Manage Channle)
 
-Time 
+-Time 
 
-Weather
+-Weather
 
-Welcome
+-Welcome
 
-Reddit
+-Reddit
 
-Meme
+-Meme
 
-10 commands NSFW 
+-10 commands NSFW 
+
 **(NOTE: To enable these commands, you must copy the relevant files in the nsfw folder into the commands folder)**
 
-and ...
+-and ...
 
   ------------------------------------------------------------
 
@@ -50,21 +51,21 @@ and ...
 
 #### Libraries participating in this project
 
-Discord.Js
+-Discord.Js
 
-Discord-canvas
+-Discord-canvas
 
-Discord-giveaways
+-Discord-giveaways
 
-ytdl-core
+-ytdl-core
 
-quick.db
+-quick.db
 
-nekos.life
+-nekos.life
 
-weather-js
+-weather-js
 
-random-puppy (With a little change)
+-random-puppy (With a little change)
 
   ------------------------------------------------------------
 
