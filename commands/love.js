@@ -15,10 +15,10 @@ const Discord = require('discord.js');
      async run (client,message, args){
         let person = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
 
-        if (!person) return message.channel.send('Tarafo TAG Kun xD')
+        if (!person) return message.channel.send('Mention Friend xD')
 
-        if ( message.author.id === person.id) return message.reply("```Vaghean nmidoni khudeto cheghadr dos dari  ??? ```")
-        if ( person === 'undefined') return message.reply("```Chizi peyda nkrdm  ```")
+        if ( message.author.id === person.id) return message.reply("```Do you not know how much you love yourself???? ```")
+        if ( person === 'undefined') return message.reply("```Nothing to be found  ```")
         const usersmd=message.author.username; 
         const love = Math.random() * 100;
         const loveIndex = Math.floor(love / 10);

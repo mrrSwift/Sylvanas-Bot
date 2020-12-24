@@ -13,7 +13,7 @@ const Discord = require('discord.js');
      description:"i see",
 
      async run (client,message, args){
-        if (!message.guild.me.hasPermission("MANAGE_MESSAGES")) return message.channel.send('Shoma in ghabelit ro ndarid')
+        if (!message.guild.me.hasPermission("MANAGE_MESSAGES")) return message.channel.send('You Cant use command')
 
         if(!args[0]) return message.channel.send("pls write Giveaway ID")
 
