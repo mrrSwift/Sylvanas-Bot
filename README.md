@@ -63,6 +63,8 @@
 
 -nekos.life
 
+-give-me-a-joke (Need Config)
+
 -weather-js
 
 -random-puppy (With a little change)

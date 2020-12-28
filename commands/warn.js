@@ -36,9 +36,9 @@ const db = require('quick.db')
 
          let warnings = db.get(`warnings_${message.guild.id}_${user.id}`);
 
-         var none01 = "3 warn";
+         var none01 = "3 𝐖𝐚𝐫𝐧";
 
-         var none02 = "6 warn";
+         var none02 = "6 𝐖𝐚𝐫𝐧";
 /***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */
