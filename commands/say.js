@@ -17,7 +17,7 @@ module.exports = {
     run: (client, message, args) => {
         
 
-        if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You don't have the required permissions to use this command.\n shoma permissions mord nazar ro ndarid");
+        if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You don't have the required permissions to use this command.");
 
         if (!args[0])return message.reply("Nothing to say?");
 

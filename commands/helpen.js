@@ -10,7 +10,7 @@
 const Discord = require('discord.js');
 var pagination = require('discord.js-pagination');
  module.exports = {
-     name:"helpen",
+     name:"help",
      description:"Show Commands list",
 
      async run (client,message, args){

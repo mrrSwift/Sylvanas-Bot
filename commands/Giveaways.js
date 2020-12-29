@@ -42,7 +42,7 @@ const ms =require('ms')
         giveaway: "@everyone\n\n🎉🎉 **Giveaway** 🎉🎉",
         giveawayEnded: "@everyone\n\n🎉🎉 **Giveaway Ended ** 🎉🎉",
         timeRemaining: "Time Remaining: **{duration}**!",
-        inviteToParticipate: " Use ☣ for invite To Participate ",
+        inviteToParticipate: " Use 🎁 for invite To Participate ",
         winMessage: " You Win {winners} **{prize}**!",
         embedFooter: `${message.guild.me.displayName}`,
         noWinner: "Giveaway is dead :(.",

@@ -20,7 +20,7 @@ const config = require("../config.json")
          const user = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
 
          const say = new Discord.MessageEmbed()
-            .setDescription(`ki ro mikhay bos koni ?? \n Who do you want to kiss??`)
+            .setDescription(`Who do you want to kiss??`)
             .setColor('#cd46f2')
 
          if (!user) return message.reply(say)
