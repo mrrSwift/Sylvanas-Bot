@@ -50,6 +50,6 @@ const Discord = require('discord.js');
 
            message.channel.send(banmember);
 
-           console.log(`\n\n----------------------- \n\n Ban Member : ${member} \n\n Reason : ${reason} \n\n by :${usersmd} \n\n Name guild : ${message.guild.me.displayName} \n\n Member ID : ${member.id}\n\n -----------------------`)
+           console.log(`\n\n------------------------ \n\n Ban Member : ${member} \n\n Reason : ${reason} \n\n by :${usersmd} \n\n Name guild : ${message.guild.me.displayName} \n\n Member ID : ${member.id}\n\n ------------------------`)
      }
     }

@@ -24,7 +24,7 @@
 
         
         const say = new Discord.MessageEmbed()
-            .setTitle('**استریم شروع شد **')
+            .setTitle('**Straem Started **')
             .setColor('#279A96')
             .setURL(`${siteurl}`)
             .setDescription(`𝐒𝐢𝐭𝐞 ⌲ ${sitename} ╭(:clapper:)╮ \n ╭(:fire:)╮𝐒𝐭𝐫𝐞𝐚𝐦 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 \n ╭(:trophy:)╮ 𝐍𝐚𝐦𝐞 : ${stname} \n ${siteurl} `)

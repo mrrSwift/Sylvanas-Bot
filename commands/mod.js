@@ -33,7 +33,7 @@ const { on } = require('superagent');
         if(onoff === 'on') {
             const msgon = new Discord.MessageEmbed()
         .setTitle(`**Alive In Chat** :white_check_mark:`)
-        .setDescription(`\n **Ersal Shode Tavasot**  :  ${usersmd} \n \n **Time** : ${time}` )
+        .setDescription(`\n **CMD By **  :  ${usersmd} \n \n **Time** : ${time}` )
         .setThumbnail(message.author.displayAvatarURL())
         .setColor('#15fc00')
         .setTimestamp()
@@ -53,7 +53,7 @@ const { on } = require('superagent');
         if(onoff === 'off') {
             const msgoff = new Discord.MessageEmbed()
             .setTitle(`**Die In Chat** :x:`)
-            .setDescription(`**Ersal Shode Tavasot**  :  ${usersmd} \n \n **Time** : ${time}` )
+            .setDescription(`**CMD By**  :  ${usersmd} \n \n **Time** : ${time}` )
             .setThumbnail(message.author.displayAvatarURL())
             .setColor('#fc0000')
             .setTimestamp()
