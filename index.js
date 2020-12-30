@@ -92,19 +92,6 @@ client.on("message",async message => {
 
     }
 
-    if(message.content.startsWith(`${perfix}help`)){
-        /*                           Made by Mr Swift                              */
-        const link = new Discord.MessageEmbed()
-        .setTitle('Add To Your Server \n برای اد کرد ربات در سرور خود اینجا کلیک کنید ')
-        .setURL(`${config.botstat.invUrl}`)
-        .setDescription('FOR EN =>%helpe\n برای فارسی => helpfa% \n\n Just Send in Server Channel\n این دستورات فقط در سرور چنل کار میکنند و در دایرکت کار نمیکند')
-        .setTimestamp()
-        
-
-        message.channel.send(link);
-
-    }
-
 
 /***************************************************************************/
 /*                                                                         */
@@ -175,7 +162,6 @@ client.on('guildMemberAdd', async member => {
         channelnam.send(`${member}`,attachment)
         
         console.log('welcome end')
-    
     
 })
 
