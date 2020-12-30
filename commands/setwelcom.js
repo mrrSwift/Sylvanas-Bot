@@ -19,7 +19,7 @@ const db = require('quick.db')
 
         let channel = message.mentions.channels.first()
 
-        if(!channel) return message.channel.send('Lotfan channel welcome ra mention kunid :D')
+        if(!channel) return message.channel.send('Please mention the channel :D')
 
         if (message.member.hasPermission('MANAGE_MESSAGES')) {
 
