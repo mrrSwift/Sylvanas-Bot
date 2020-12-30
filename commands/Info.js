@@ -17,7 +17,7 @@ const Discord = require('discord.js');
 
         const info = new Discord.MessageEmbed()
         .setTitle('Info')
-        .addField('Bot Developer :','𝓢𝔀𝓲𝓯𝓽#2975 ')
+        .addField('Bot Developer :','!                     𝑺𝒘𝒊𝒇𝒕#2975 ')
         .addField('Time Create Bot :','2020/7/11 ')
         .addField('Version Bot :','3.2')
         .addField('Language','ENG ,FA(Farsi)')

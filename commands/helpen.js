@@ -18,6 +18,7 @@ var pagination = require('discord.js-pagination');
         const help = new Discord.MessageEmbed()
         .setTitle('For Add To Your Server ')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot')
+        .addField('Made by','Mr Swift ')
         .setTimestamp()
        
         const moderatoinEN = new Discord.MessageEmbed()
