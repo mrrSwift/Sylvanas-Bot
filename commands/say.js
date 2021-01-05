@@ -23,7 +23,16 @@ module.exports = {
 
     
 
-        if (args[0].toLowerCase() === "embed") {
+        if (args[0].toLowerCase() === "everyone") {
+
+            const embed = new MessageEmbed()
+            .setDescription(args.slice(1).join(" "))
+            .setColor('#12fffb');
+
+            message.delete();
+            message.channel.send('@everyone',embed);
+
+        }else if (args[0].toLowerCase() === "embed") {
             
             if (!args[1])return message.reply("Nothing to say?")
             const embed = new MessageEmbed()
