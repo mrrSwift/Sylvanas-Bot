@@ -4,7 +4,6 @@
 /*                      Best Source FOR Discord Bot                        */
 /*               Server Support :https://discord.gg/6Zgu6TN                */
 /*                        My instagram : Mr_.swift                         */
-/*                              Copyright: 2020                            */
 /*                                                                         */
 /***************************************************************************/
 const Discord = require('discord.js');
@@ -28,7 +27,7 @@ const Discord = require('discord.js');
         .setColor('#e60b0b')
         .setFooter(`Cmd By ${usersmd}  ${message.guild.me.displayName}` );
 
-        message.channel.send(embed).then(messageReaction => {
+        message.channel.send('@everyone',embed).then(messageReaction => {
            messageReaction.react("✅");
            messageReaction.react("❎");
           
