@@ -134,7 +134,7 @@ client.on('guildMemberAdd', async member => {
         return;
     }
 
-    console.log('welcome Run')
+    console.log('Welcome Run')
 
     const image = await new Canvas.Welcome()
       .setUsername(`${member.displayName}!`)
@@ -161,7 +161,7 @@ client.on('guildMemberAdd', async member => {
         
         channelnam.send(`${member}`,attachment)
         
-        console.log('welcome')
+        console.log('Welcome End')
     
 })
 
