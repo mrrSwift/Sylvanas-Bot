@@ -161,7 +161,7 @@ client.on('guildMemberAdd', async member => {
         
         channelnam.send(`${member}`,attachment)
         
-        console.log('welcome end')
+        console.log('welcome')
     
 })
 
