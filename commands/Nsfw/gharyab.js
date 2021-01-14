@@ -20,7 +20,7 @@ const Discord = require('discord.js');
 
         if(!idliser)return message.reply("Shakhs morde nazar ro Mention kon :/");
 
-        if ( idliser === 'undefined') return message.reply("```Chizi peyda nkrdm  ```")
+        if ( idliser === 'undefined') return message.reply("```Not Found  ```")
        
         const time = new Discord.MessageEmbed()
         .addField(`gharyab  . .` , '█                            10%')
