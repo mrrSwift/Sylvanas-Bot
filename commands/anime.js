@@ -28,7 +28,14 @@ const Discord = require('discord.js');
 /***************************************************************************/
 
         neko.sfw.wallpaper().then(neko => {
-            message.channel.send(`${neko.url}`)
+
+            const embed = new Discord.MessageEmbed()
+            .setTitle('**Anime**')
+            .setColor('#cd0000')
+            .setImage(`${neko.url}`)
+      
+
+            message.channel.send(embed)
             console.log('Anime [1]')
         });
        
