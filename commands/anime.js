@@ -34,8 +34,9 @@ const Discord = require('discord.js');
             .setColor('#cd0000')
             .setImage(`${neko.url}`)
       
-
+            message.channel.startTyping();
             message.channel.send(embed)
+            message.channel.stopTyping();
             console.log('Anime [1]')
         });
        

@@ -23,7 +23,9 @@ const Discord = require('discord.js');
         .setImage(member.user.displayAvatarURL())
         .setTimestamp()
 
+        message.channel.startTyping();
         message.reply(avatarURL);
+        message.channel.stopTyping();
 
         console.log('Avatar [1]')
      }

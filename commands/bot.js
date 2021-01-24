@@ -18,8 +18,9 @@ const Discord = require('discord.js');
 /*   Made by Mr Swift  */
         const say = new Discord.MessageEmbed()
             .setDescription(`${javab[jv]}`);
-
+            message.channel.startTyping();
             message.channel.send(say);
+            message.channel.stopTyping();
             console.log('bot [1]')
      }
  }

@@ -27,7 +27,9 @@ const figlet = require('figlet');
              }
              if (data.length > 2000) return message.channel.send(' Max Charecter 2000 ')
 
+             message.channel.startTyping();
              message.channel.send('```'+data+'```')
+             message.channel.stopTyping();
          })
         
 
