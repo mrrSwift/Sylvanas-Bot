@@ -32,9 +32,9 @@ const moment = require('jalali-moment');
         .setColor('#7bfa20')
         .setDescription(`**${date}**`)
         .setFooter( `${message.guild.me.displayName}`);
-
+        message.channel.startTyping();
             message.reply(dateee);
-
+            message.channel.stopTyping();
             console.log(`-----------------------\n\nUse Date Jalili [1] \n\n Date : ${date00}\n\n -----------------------` )
        
      }

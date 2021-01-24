@@ -23,8 +23,9 @@ module.exports = {
            .setFooter(` ${message.guild.me.displayName}` )
            .addField(`☁${message.member.displayName}🌈 ${Math.floor(love)}% Gay`,'\u200B ');
            
-
+           message.channel.startTyping();
        message.channel.send(embed);
+       message.channel.stopTyping();
        console.log(`Gay [1]`)
     }
 }

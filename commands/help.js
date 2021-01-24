@@ -20,9 +20,9 @@
         .setURL('https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot')
         .addField('Made by','Mr Swift ')
         .setTimestamp()
-
+        message.channel.startTyping();
         message.author.send(help);
-        
+        message.channel.stopTyping();
        
      }
 }

@@ -45,9 +45,9 @@ const Discord = require('discord.js');
            .addField('Reason',reason)
            .setTimestamp()
            .setFooter(`Cmd By ${usersmd}  ${message.guild.me.displayName}`); 
-
+           message.channel.startTyping();
            message.channel.send(unbanmember);
-
+           message.channel.stopTyping();
            console.log(`\n\n----------------------- \n\n Unban Member : ${member} \n\n Reason : ${reason} \n\n by :${usersmd} \n\n Name guild : ${message.guild.me.displayName} \n\n Member ID : ${member.id}\n\n -----------------------`)
    
 

@@ -24,7 +24,9 @@ module.exports = {
            .addField(`☁${message.member.displayName}is 🌈 ${Math.floor(love)}%  lesbian`,'\u200B ');
            
            console.log(`lesbian [1]`)
+           message.channel.startTyping();
        message.channel.send(embed);
+       message.channel.stopTyping();
       
     }
 }

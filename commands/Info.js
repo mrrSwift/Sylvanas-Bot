@@ -23,7 +23,8 @@ const Discord = require('discord.js');
         .addField('Language','ENG ,FA(Farsi)')
         .setColor('#cd46f2')
         .setTimestamp()
-
+        message.channel.startTyping();
         message.channel.send(info)
+        message.channel.stopTyping();
     }
 }

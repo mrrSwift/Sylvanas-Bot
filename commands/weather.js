@@ -32,9 +32,9 @@ module.exports = {
              .addField(`𝐖𝐢𝐧𝐝`,`${current.winddisplay}`,true)
              .addField(`𝐅𝐞𝐞𝐥𝐬 𝐥𝐢𝐤𝐞`,`${current.feelslike}`,true)
              .addField('𝐇𝐮𝐦𝐢𝐟𝐢𝐭𝐲', `${current.humidity} %`)
-
+             message.channel.startTyping();
              message.channel.send(weatherinfo);
-
+             message.channel.stopTyping();
 
         })
 

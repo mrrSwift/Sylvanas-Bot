@@ -28,8 +28,10 @@ module.exports = {
        .setColor('#279A96')
        .setImage(img)
        .setTitle(`**Your Meme**`)
-       
+       message.channel.startTyping();
       message.channel.send(embed);
+      message.channel.stopTyping();
+      
       console.log(`Meme [1] \n\n URL: ${img}`)
     }
 }

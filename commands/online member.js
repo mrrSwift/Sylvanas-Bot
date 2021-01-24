@@ -25,9 +25,9 @@
             .setTitle(`** (${totalOnline.size}) Online Member In Server**`)
             .setTimestamp()
             .setFooter(`Cmd By ${usersmd}  ${message.guild.me.displayName}`);
-           
+            message.channel.startTyping();
             message.channel.send(onmember);
-
+            message.channel.stopTyping();
             console.log(`Online Member [1] \n\n Online : ${totalOnline} `)
         });
 

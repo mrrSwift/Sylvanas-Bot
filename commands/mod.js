@@ -37,8 +37,9 @@ const { on } = require('superagent');
         .setThumbnail(message.author.displayAvatarURL())
         .setColor('#15fc00')
         .setTimestamp()
-
+        message.channel.startTyping();
              message.channel.send(msgon)
+             message.channel.stopTyping();
              console.log(`\n\n----------------------- \n\n Mod on [1] \n\n name : ${usersmd} \n\n Time : ${time}\n\n -----------------------`)
         };
 /***************************************************************************/
@@ -57,9 +58,9 @@ const { on } = require('superagent');
             .setThumbnail(message.author.displayAvatarURL())
             .setColor('#fc0000')
             .setTimestamp()
-    
+            message.channel.startTyping();
                  message.channel.send(msgoff)
-
+                 message.channel.stopTyping();
                  console.log(`\n\n----------------------- \n\n Mod off [1] \n\n name : ${usersmd} \n\n Time : ${time}\n\n -----------------------`)
     
         }

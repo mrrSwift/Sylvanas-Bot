@@ -25,8 +25,10 @@ const Discord = require('discord.js');
         .setColor('#7bfa20')
         .setDescription(`**${date01}**`)
         .setFooter( `${message.guild.me.displayName}`);
-            message.reply(dateee);
 
+        message.channel.startTyping();
+            message.reply(dateee);
+            message.channel.stopTyping();
             console.log(`----------------------- \n\nUse Date [1] \n\n Date : ${date01}\n\n -----------------------` )
        
      }

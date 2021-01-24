@@ -30,8 +30,9 @@ const Discord = require('discord.js');
             .addField(`☁ **${person.displayName}** loves **${message.member.displayName}**  :`,
             `💟 ${Math.floor(love)}%\n\n${loveLevel}`);
             
-
+            message.channel.startTyping();
         message.channel.send(embed);
+        message.channel.stopTyping();
         console.log(`Love [1]`)
        
      }

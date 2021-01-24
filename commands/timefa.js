@@ -21,9 +21,9 @@ const Discord = require('discord.js');
         .setTitle("𝐓𝐢𝐦𝐞(server)")
         .setColor('#18f285')
         .setDescription (`**${h}:${m}:${s}**`) 
-
+        message.channel.startTyping();
         const timme = await message.reply(time);
-
+        message.channel.stopTyping();
 
 
 
@@ -44,8 +44,9 @@ const Discord = require('discord.js');
         .setColor('#18f285')
         .setDescription (`**${h}:${m}:${s}**`) 
        
-         
+        message.channel.startTyping();
         timme.edit(time01);
+        message.channel.stopTyping();
 /***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */

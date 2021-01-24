@@ -18,8 +18,9 @@ const Discord = require('discord.js');
             .setDescription(`🏓 Pong!
             Latency is ${Math.floor(message.createdTimestamp - message.createdTimestamp)}ms
             API Latency is ${Math.round(client.ws.ping)} ms`);
-
+            message.channel.startTyping();
             message.channel.send(ping);
+            message.channel.stopTyping();
             console.log(`\n\n 『 Ping 』\n\n 『 API Latency is ${Math.round(client.ws.ping)} ms 』 `)
        
      }

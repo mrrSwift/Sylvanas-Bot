@@ -37,13 +37,16 @@ const config = require("../config.json")
 /***************************************************************************/
          if (user.id === `${config.botstat.botID}`) {
             message.react("💋")
-             message.channel.send ('^-^')}else{ neko.sfw.kiss().then(neko => {
+             message.channel.send ('^-^')}
+             else{ neko.sfw.kiss().then(neko => {
                 const kiss = new Discord.MessageEmbed()
                 .setDescription(`${user} You got a kiss from${message.author.username}`)
                 .setImage(`${neko.url}`)
                 .setColor('#cd46f2')
 
+                message.channel.startTyping();
                 message.channel.send(kiss)
+                message.channel.stopTyping();
                 console.log(`Kiss [1]`)
             })};
 

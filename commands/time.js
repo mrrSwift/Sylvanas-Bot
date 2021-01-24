@@ -21,10 +21,10 @@ const Discord = require('discord.js');
         .setTitle("𝐓𝐢𝐦𝐞 𝐔𝐓𝐂")
         .setColor('#18f285')
         .setDescription (`**${h}:${m}:${s}**`) 
-
+        message.channel.startTyping();
         message.reply(time);
 
-        
+        message.channel.stopTyping();
        
      }
  }
