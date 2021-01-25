@@ -14,11 +14,11 @@ const giveMeAJoke = require('give-me-a-joke');
     description:"i see",
 
     async run (client,message, args){
-
+        message.channel.startTyping();
         giveMeAJoke.getRandomCNJoke (function(joke) {
             message.channel.send(`${joke}`)
         });
-       
+        message.channel.stopTyping();
       
          
         console.log(`Joke [1]`)

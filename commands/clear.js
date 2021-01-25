@@ -33,8 +33,12 @@ const Discord = require('discord.js');
         const clerr = new Discord.MessageEmbed()
         .setTitle(`${amount} 𝐏𝐚𝐲𝐚𝐦 𝐏𝐚𝐜𝐤 𝐒𝐡𝐮𝐝 \n ${amount} Cleared`)
         .setColor('#000000')
-
+        message.channel.startTyping();
         message.channel.send(clerr);
+        message.channel.stopTyping();
+
+
+      
 
         console.log(`\n\n----------------------- \n\n Clear Amount : ${amount}\n\n -----------------------`)
        

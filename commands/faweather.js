@@ -35,7 +35,7 @@ module.exports = {
              .addField('رطوبت', `${current.humidity}%`)
              .setFooter( `  ${message.guild.me.displayName}`);
 /*   Made by Mr Swift  */
-message.channel.startTyping();
+              message.channel.startTyping();
               message.channel.send(weatherfa);
               message.channel.stopTyping();
         })

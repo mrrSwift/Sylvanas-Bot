@@ -30,8 +30,8 @@
             .setDescription(`𝐒𝐢𝐭𝐞 ⌲ ${sitename} ╭(:clapper:)╮ \n ╭(:fire:)╮𝐒𝐭𝐫𝐞𝐚𝐦 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 \n ╭(:trophy:)╮ 𝐍𝐚𝐦𝐞 : ${stname} \n ${siteurl} `)
             .setImage('https://cdn.discordapp.com/attachments/700381983418744933/733000360985100308/doc-2020-07-15-20-07-49.gif')
       
-
+            message.channel.startTyping();
             message.channel.send(say);
-       
+            message.channel.stopTyping();
      }
  }

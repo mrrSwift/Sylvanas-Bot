@@ -31,8 +31,9 @@ const chooseArr = ["🗻", "📰", "✂"];
     embed
         .setDescription("")
         .addField(result, `${reacted} vs ${botChoice}`);
-
+        message.channel.startTyping();
     m.edit(embed);
+    message.channel.stopTyping();
 /***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */

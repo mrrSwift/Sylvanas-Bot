@@ -19,11 +19,11 @@ const neko = new client();
 /*   Made by Mr Swift  */
         if (!message.channel.nsfw) return message.channel.send(":underage: NSFW Command. Lotfan in dastor ro dar Channel NSFW estfade konid.")
 
-
+        message.channel.startTyping();
         neko.nsfw.feet().then(neko => {
             message.channel.send(`${neko.url}`)
         });
-       
+        message.channel.stopTyping();
           
         console.log(`Feet [1]`)
            

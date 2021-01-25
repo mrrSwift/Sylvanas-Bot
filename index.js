@@ -80,7 +80,7 @@ client.on('ready',()=> {
 /***************************************************************************/
 
 client.on("message",async message => {
-
+    message.channel.startTyping();
     if(message.content.startsWith(`${perfix}link`)){
         const link = new Discord.MessageEmbed()
         .setTitle('Add To Your Server \n برای اد کرد ربات در سرور خود اینجا کلید کنید ')
@@ -91,7 +91,7 @@ client.on("message",async message => {
         message.channel.send(link);
 
     }
-
+    message.channel.stopTyping();
 
 /***************************************************************************/
 /*                                                                         */
@@ -158,9 +158,9 @@ client.on('guildMemberAdd', async member => {
     const attachment = new Discord.MessageAttachment(image.toBuffer(), 'welcome-image.png');
     
         const channelnam =client.channels.cache.get(chx)
-        
+        message.channel.startTyping();
         channelnam.send(`${member}`,attachment)
-        
+        message.channel.stopTyping();
         console.log('Welcome End')
     
 })

@@ -20,11 +20,12 @@ const neko = new client();
         if (!message.channel.nsfw) return message.channel.send(":underage: NSFW Command. Please switch to NSFW channel in order to use this command.")
 
 
+        message.channel.startTyping();
         neko.nsfw.boobs().then(neko => {
             message.channel.send(`${neko.url}`)
         });
        
-          
+        message.channel.stopTyping();
         
         console.log('Boobs [1]')
      }
