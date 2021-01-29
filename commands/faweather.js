@@ -21,7 +21,9 @@ module.exports = {
             const usersmd=message.author.username; 
             var current = result[0].current;
             var location = result[0].location;
-/*   Made by Mr Swift  */
+            /*   Made by Mr Swift  */
+
+
             const weatherfa = new Discord.MessageEmbed()
              .setDescription(`**${current.skytext}**`)
              .setAuthor(` وضعیت اب و هوا برای ${current.observationpoint}`)
@@ -34,7 +36,9 @@ module.exports = {
              .addField(`Feels like`,`${current.feelslike}`,true)
              .addField('رطوبت', `${current.humidity}%`)
              .setFooter( `  ${message.guild.me.displayName}`);
-/*   Made by Mr Swift  */
+
+             /*   Made by Mr Swift  */
+             
               message.channel.startTyping();
               message.channel.send(weatherfa);
               message.channel.stopTyping();
