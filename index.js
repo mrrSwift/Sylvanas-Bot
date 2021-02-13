@@ -84,6 +84,7 @@ client.on("message",async message => {
     if(message.content.startsWith(`${perfix}link`)){
         const link = new Discord.MessageEmbed()
         .setTitle('Add To Your Server \n برای اد کرد ربات در سرور خود اینجا کلید کنید ')
+        .setDescription(' Use the helpen/helpfa command for help')
         .setURL(`${config.botstat.invUrl}`)
         .setTimestamp()
         
