@@ -69,7 +69,7 @@ module.exports = {
             .then(collected => collected.first() && collected.first().emoji.name);
     },
 
-     sleep(loger,time) {
+     sleep: function (loger,time) {
         setTimeout(() => { console.log(`${loger}!`); }, time);
     
 
