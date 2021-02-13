@@ -9,6 +9,7 @@
 /***************************************************************************/
 const Discord = require('discord.js');
 var pagination = require('discord.js-pagination');
+const config = require("../config.json")
  module.exports = {
      name:"help",
      description:"Show Commands list",
@@ -17,7 +18,7 @@ var pagination = require('discord.js-pagination');
 
         const help = new Discord.MessageEmbed()
         .setTitle('For Add To Your Server ')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot')
+        .setURL(`${config.botstat.invUrl}`)
         .addField('Made by','Mr Swift ')
         .setImage('https://cdn.discordapp.com/attachments/794975466523328559/810215124110934076/sylvanas.gif')
         .setTimestamp()

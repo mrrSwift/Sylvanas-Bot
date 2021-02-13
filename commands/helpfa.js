@@ -9,6 +9,7 @@
 /***************************************************************************/
 const Discord = require('discord.js');
 var pagination = require('discord.js-pagination');
+const config = require("../config.json")
  module.exports = {
      name:"helpfa",
      description:"Show Commands list",
@@ -17,7 +18,7 @@ var pagination = require('discord.js-pagination');
 
         const help = new Discord.MessageEmbed()
         .setTitle('برای اد کرد ربات در سرور خود اینجا کلیک کنید ')
-        .setURL('https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot')
+        .setURL(`${config.botstat.invUrl}`)
         .setImage('https://cdn.discordapp.com/attachments/794975466523328559/810215124110934076/sylvanas.gif')
         .setTimestamp()
        
