@@ -31,7 +31,7 @@ const randompuppy = require ('random-puppy');
      
             if(!img)return message.reply("No items found :(")
            
-            
+            message.channel.startTyping();
            message.channel.send(img);
            console.log('Reddit Iran [1]')
          }
@@ -61,7 +61,7 @@ const randompuppy = require ('random-puppy');
      
             if(!img)return message.reply("No items found:(")
            
-            
+            message.channel.startTyping();
            message.channel.send(img);
            console.log('Reddit WOW [1]')
          }
@@ -87,7 +87,7 @@ const randompuppy = require ('random-puppy');
      
             if(!img)return message.reply("No items found :(")
            
-            
+            message.channel.startTyping();
            message.channel.send(img);
            console.log('Reddit Karma [1]')
          }
@@ -102,7 +102,7 @@ const randompuppy = require ('random-puppy');
      
             if(!img)return message.reply("No items found :(")
            
-            
+            message.channel.startTyping();
            message.channel.send(img);
            console.log('Reddit Dota2 [1]')
          }
@@ -118,7 +118,7 @@ const randompuppy = require ('random-puppy');
      
             if(!img)return message.reply("No items found :(")
            
-            
+            message.channel.startTyping();
            message.channel.send(img);
            console.log('Reddit PUBG [1]')
          }
