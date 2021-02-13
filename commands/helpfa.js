@@ -18,7 +18,7 @@ var pagination = require('discord.js-pagination');
         const help = new Discord.MessageEmbed()
         .setTitle('برای اد کرد ربات در سرور خود اینجا کلیک کنید ')
         .setURL('https://discord.com/api/oauth2/authorize?client_id=726137789757915177&permissions=8&scope=bot')
-        
+        .setImage('https://cdn.discordapp.com/attachments/794975466523328559/810215124110934076/sylvanas.gif')
         .setTimestamp()
        
         
