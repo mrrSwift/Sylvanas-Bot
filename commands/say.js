@@ -32,6 +32,9 @@ module.exports = {
             message.delete();
             message.channel.send('@everyone',embed);
 
+
+
+            /////////////
         }else if (args[0].toLowerCase() === "embed") {
             
             if (!args[1])return message.reply("Nothing to say?")
@@ -41,6 +44,9 @@ module.exports = {
 
                 message.delete();
             message.channel.send(embed);
+
+
+            ///////////
         } else {
             message.delete();
             message.channel.send(args.join(" "));
