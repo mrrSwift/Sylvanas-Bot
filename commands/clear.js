@@ -9,7 +9,7 @@
 /***************************************************************************/
 const { DiscordAPIError } = require("discord.js");
 const Discord = require('discord.js');
-
+const { sleep } = require("../functions.js");
  module.exports = {
      name:"clear",
      description:"clear message",
@@ -34,13 +34,15 @@ const Discord = require('discord.js');
         .setTitle(`${amount} 𝐏𝐚𝐲𝐚𝐦 𝐏𝐚𝐜𝐤 𝐒𝐡𝐮𝐝 \n ${amount} Cleared`)
         .setColor('#000000')
         message.channel.startTyping();
-        message.channel.send(clerr);
+         const mes2 = await  message.channel.send(clerr);
         message.channel.stopTyping();
 
 
+        sleep(`\n\n----------------------- \n\n Clear Amount : ${amount}\n\n -----------------------`,1000)
       
-
-        console.log(`\n\n----------------------- \n\n Clear Amount : ${amount}\n\n -----------------------`)
+  
+        mes2.delete({ timeout: 4000, reason: 'It had to be done.' })
+        
        
      }
  }

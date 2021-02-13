@@ -67,5 +67,11 @@ module.exports = {
         return message
             .awaitReactions(filter, { max: 1, time: time})
             .then(collected => collected.first() && collected.first().emoji.name);
+    },
+
+     sleep(loger,time) {
+        setTimeout(() => { console.log(`${loger}!`); }, time);
+    
+
     }
 };
