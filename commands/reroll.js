@@ -32,7 +32,7 @@ const Discord = require('discord.js');
         client.giveawaysManager.reroll(giveaways.messageID).then(() => {
             message.channel.send("Finded!");
         }).catch((err) => {
-            message.channel.send("GIveaway For "+messageID+", Not find ");
+            message.channel.send("GIveaway For "+messageID+",  Not find ");
         });
 
      }
