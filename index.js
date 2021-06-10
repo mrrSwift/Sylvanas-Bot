@@ -63,11 +63,20 @@ for (const file of commandsFiles){
 /*                         Made by Mr Swift                            */
 client.on('ready',()=> {
     console.log("\n\nSylvanas is Ready\n\n");
-    client.user.setActivity("Type %link For help",{
-        name: 'Type %link or %help',
-        type: 'STREAMING',
-        url: `${config.botstat.twichtUrl}`
-	} ).catch(console.error);
+    const activities = ["",
+        "Type %help or %link",
+        "Open Source🌴"
+        
+      ];
+    setInterval(() => {
+        // generate random number between 1 and list length.
+        const randomIndex = Math.floor(Math.random() * (activities.length - 1) + 1);
+        const newActivity = activities[randomIndex];
+        
+        client.user.setActivity(newActivity).catch(console.error);
+        
+      }, 10000);
+    
 
 });
 /***************************************************************************/
