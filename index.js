@@ -75,7 +75,7 @@ client.on('ready',()=> {
         
         client.user.setActivity(newActivity).catch(console.error);
         
-      }, 10000);
+      }, 5000);
     
 
 });
