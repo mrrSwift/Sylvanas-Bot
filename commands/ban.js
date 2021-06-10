@@ -38,7 +38,7 @@ const Discord = require('discord.js');
         if(reason === none) reason = 'Unspecified';
 
 /*   Made by Mr Swift  */
-        member.ban(reason)
+        member.ban({ days: 0, reason: `${reason}` })
           
           const banmember =new Discord.MessageEmbed()
            .setTitle('**𝐌𝐞𝐦𝐛𝐞𝐫 𝐁𝐚𝐧𝐞𝐝 <:bann:852598139999617055>**')
