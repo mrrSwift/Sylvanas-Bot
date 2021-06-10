@@ -34,6 +34,7 @@ const db = require('quick.db');
 
 const Canvas = require(`discord-canvas`);
 
+
 const commandsFiles = readdirSync(join(__dirname,"commands")).filter(file => file.endsWith(".js"))
 /*                           Made by Mr Swift                              */
 const { GiveawaysManager } = require("discord-giveaways");
@@ -93,6 +94,20 @@ client.on("message",async message => {
 
     }
     message.channel.stopTyping();
+
+    if(message === fohsh){
+        let warnings = db.get(`warnings_${message.guild.id}_${user.id}`);
+        if(warnings !== null) {
+             
+            db.add(`warnings_${message.guild.id}_${user.id}`, 1);
+        }else { 
+
+            db.set(`warnings_${message.guild.id}_${user.id}`, 1);
+        }
+        message.reply('warn !!!')
+        message.delete();
+
+    }
 
 /***************************************************************************/
 /*                                                                         */
