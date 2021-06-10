@@ -95,18 +95,62 @@ client.on("message",async message => {
     }
     message.channel.stopTyping();
 
-    if(message === fohsh){
-        let warnings = db.get(`warnings_${message.guild.id}_${user.id}`);
-        if(warnings !== null) {
+
+
+
+
+
+
+    
+
+
+    var none01 = "3 warn";
+
+    var none02 = "6 warn";
+
+    for (i=0;i<=10;i++){
+        fohsh = config.botstat.word
+            const argss = message.content.trim().split(/ +/);
+    if(fohsh.includes(argss[i]) === true){
+        let warnings = db.get(`warnings_${message.guild.id}_${message.author.id}`);
+        if (!message.member.hasPermission("MANAGE_MESSAGES")) {
+
+        if(warnings !== null) { 
              
-            db.add(`warnings_${message.guild.id}_${user.id}`, 1);
+            db.add(`warnings_${message.guild.id}_${message.author.id}`, 1);
         }else { 
-
-            db.set(`warnings_${message.guild.id}_${user.id}`, 1);
+    
+            db.set(`warnings_${message.guild.id}_${message.author.id}`, 1);
         }
-        message.reply('warn !!!')
-        message.delete();
+        message.reply('Warn !!!')
 
+
+        if(warnings === 2) {
+            const member = message.member
+            
+
+             member.kick(none01)
+             message.channel.send(` kick ${member} Because it has already received three warnings `)
+             console.log(`\n\n----------------------- \n\n User kick For 3 Warn \n\n Username:${member}\n\n-----------------------  `)
+             member.send(`You Kicked ${message.guild.name} for the Follwoing reason :\'${reason}\'`);
+            };
+             if(warnings === 5) {
+                const member = message.member
+    
+                 member.ban(none02)
+                 message.channel.send(` Ban ${member} Because it has already received Six warnings `)
+                 console.log(`\n\n----------------------- \n\n User Ban For 6 Warn \n\n Username:${member}\n\n-----------------------  `)
+                 member.send(`You Baned ${message.guild.name} for the Follwoing reason :\'${reason}\'`);
+                };
+    
+
+    }
+        
+
+
+       
+                message.delete();
+    }
     }
 
 /***************************************************************************/
