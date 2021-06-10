@@ -41,7 +41,7 @@ const Discord = require('discord.js');
         member.ban(reason)
           
           const banmember =new Discord.MessageEmbed()
-           .setTitle('**𝐌𝐞𝐦𝐛𝐞𝐫 𝐁𝐚𝐧𝐞𝐝**')
+           .setTitle('**𝐌𝐞𝐦𝐛𝐞𝐫 𝐁𝐚𝐧𝐞𝐝 <:bann:852598139999617055>**')
            .setThumbnail(member.user.displayAvatarURL())
            .addField('User Baned', member)
            .addField('Reason',reason)
