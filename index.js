@@ -113,9 +113,7 @@ client.on("message",async message => {
     
 
 
-    var none01 = "3 warn";
-
-    var none02 = "6 warn";
+  
 
     for (i=0;i<=10;i++){
         fohsh = config.botstat.word
