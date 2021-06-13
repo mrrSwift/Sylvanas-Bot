@@ -115,9 +115,18 @@ client.on("message",async message => {
 
   
 
+
+
+    var none01 = "3 warn";
+
+    var none02 = "6 warn";
+
     for (i=0;i<=10;i++){
         fohsh = config.botstat.word
-            const argss = message.content.trim().split(/ +/);
+           
+            const argss = message.content.toLowerCase().trim().split(/ +/) ;
+
+        
     if(fohsh.includes(argss[i]) === true){
         let warnings = db.get(`warnings_${message.guild.id}_${message.author.id}`);
         if (!message.member.hasPermission("MANAGE_MESSAGES")) {
@@ -159,7 +168,8 @@ client.on("message",async message => {
                 message.delete();
     }
     }
-
+    
+   
 /***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */
