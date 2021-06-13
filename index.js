@@ -63,22 +63,32 @@ for (const file of commandsFiles){
 /*                         Made by Mr Swift                            */
 client.on('ready',()=> {
     console.log("\n\nSylvanas is Ready\n\n");
-    const activities = ["",
-        "Type %help or %link",
-        "Open Source🌴"
-        
-      ];
     setInterval(() => {
-        // generate random number between 1 and list length.
-        const randomIndex = Math.floor(Math.random() * (activities.length - 1) + 1);
-        const newActivity = activities[randomIndex];
         
-        client.user.setActivity(newActivity).catch(console.error);
+       
+        
+        
+        client.user.setActivity('Type %help or %link').catch(console.error);
+
+
+    
         
       }, 5000);
+
+      setInterval(() => {
+        
+    
+       
+        
+        client.user.setActivity('Open Source🌴').catch(console.error);
+        
+      }, 11000);
     
 
 });
+    
+
+
 /***************************************************************************/
 /*                                                                         */
 /*                           Made by Mr Swift                              */
