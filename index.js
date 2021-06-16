@@ -68,7 +68,7 @@ client.on('ready',()=> {
        
         
         
-        client.user.setActivity('Type %help or %link').catch(console.error);
+        client.user.setActivity(`Type ${perfix}help or ${perfix}link`).catch(console.error);
 
 
     
@@ -164,7 +164,7 @@ client.on("message",async message => {
                 const member = message.member
     
                  member.ban(none02)
-                 message.channel.send(` Ban ${member} Because it has already received Six warnings `)
+                 message.channel.send(` Ban ${member} Because it has already received Six warnings <:bann:852598139999617055>`)
                  console.log(`\n\n----------------------- \n\n User Ban For 6 Warn \n\n Username:${member}\n\n-----------------------  `)
                  member.send(`You Baned ${message.guild.name} for the Follwoing reason :\'${reason}\'`);
                 };
