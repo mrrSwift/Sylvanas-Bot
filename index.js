@@ -68,7 +68,7 @@ client.on('ready',()=> {
        
         
         
-        client.user.setActivity(`Type ${perfix}help or ${perfix}link`).catch(console.error);
+        client.user.setActivity(`Type ${perfix}Help or ${perfix}link`).catch(console.error);
 
 
     
@@ -87,7 +87,6 @@ client.on('ready',()=> {
 
 });
     
-
 
 /***************************************************************************/
 /*                                                                         */
