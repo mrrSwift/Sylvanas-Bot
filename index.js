@@ -125,6 +125,7 @@ client.on("message",async message => {
   
     let bads = db.get(`badchannel_${message.guild.id}`)
 
+  
 if (message.guild.id === bads){
 
     var none01 = "3 warn";
