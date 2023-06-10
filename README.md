@@ -1,4 +1,4 @@
-# Sylvanas Discord Bot 
+# Sylvanas Discord Bot (Retired)
   ------------------------------------------------------------
 ### ability
  
